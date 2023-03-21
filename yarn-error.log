@@ -1,0 +1,36 @@
+Arguments: 
+  /home/yoex/.nvm/versions/node/v16.14.2/bin/node /home/yoex/.nvm/versions/node/v16.14.2/bin/yarn add plotutils
+
+PATH: 
+  /home/yoex/.vscode-server/bin/5e805b79fcb6ba4c2d23712967df89a089da575b/bin/remote-cli:/home/yoex/.nvm/versions/node/v16.14.2/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/Inprise/vbroker/bin:/mnt/c/Program Files (x86)/Borland/Delphi7/Bin:/mnt/c/Program Files (x86)/Borland/Delphi7/Projects/Bpl/:/mnt/c/Program Files/Common Files/Oracle/Java/javapath:/mnt/c/Program Files (x86)/Common Files/Oracle/Java/javapath:/mnt/c/Python39/Scripts/:/mnt/c/Python39/:/mnt/c/Windows/system32:/mnt/c/Windows:/mnt/c/Windows/System32/Wbem:/mnt/c/Windows/System32/WindowsPowerShell/v1.0/:/mnt/c/Windows/System32/OpenSSH/:/mnt/c/ProgramData/chocolatey/bin:/mnt/c/Program Files/dotnet/:/mnt/c/Program Files/Microsoft SQL Server/130/Tools/Binn/:/mnt/c/Program Files/Microsoft SQL Server/Client SDK/ODBC/170/Tools/Binn/:/mnt/c/Program Files (x86)/dotnet/:/mnt/c/Program Files/PuTTY/:/mnt/c/Program Files/nodejs/:/mnt/c/Program Files/TortoiseGit/bin:/mnt/c/Program Files/Git/cmd:/mnt/c/Users/yotorres/AppData/Local/Microsoft/WindowsApps:/mnt/c/Users/yotorres/AppData/Local/Programs/Microsoft VS Code/bin:/mnt/c/Users/yotorres/AppData/Roaming/npm:/mnt/c/Users/yotorres/AppData/Local/Programs/Hyper/resources/bin:/mnt/c/Users/yotorres/.dotnet/tools:/mnt/c/Program Files/PostgreSQL/13/bin:/snap/bin
+
+Yarn version: 
+  1.22.19
+
+Node version: 
+  16.14.2
+
+Platform: 
+  linux x64
+
+Trace: 
+  Error: https://registry.yarnpkg.com/plotutils: Not found
+      at Request.params.callback [as _callback] (/home/yoex/.nvm/versions/node/v16.14.2/lib/node_modules/yarn/lib/cli.js:66145:18)
+      at Request.self.callback (/home/yoex/.nvm/versions/node/v16.14.2/lib/node_modules/yarn/lib/cli.js:140890:22)
+      at Request.emit (node:events:526:28)
+      at Request.<anonymous> (/home/yoex/.nvm/versions/node/v16.14.2/lib/node_modules/yarn/lib/cli.js:141862:10)
+      at Request.emit (node:events:526:28)
+      at IncomingMessage.<anonymous> (/home/yoex/.nvm/versions/node/v16.14.2/lib/node_modules/yarn/lib/cli.js:141784:12)
+      at Object.onceWrapper (node:events:645:28)
+      at IncomingMessage.emit (node:events:538:35)
+      at endReadableNT (node:internal/streams/readable:1345:12)
+      at processTicksAndRejections (node:internal/process/task_queues:83:21)
+
+npm manifest: 
+  No manifest
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile

@@ -6,7 +6,7 @@ import {
 } from "../generated/NftMarketplace/NftMarketplace"
 import { ItemBought, ItemCanceled, ItemListed,  ActiveItem} from "../generated/schema"
 
-export function handleItemBoutght (event: ItemBoughtEvent): void {
+export function handleItemBought (event: ItemBoughtEvent): void {
 
 //cargo el item  comprado con el ID indicado
   let itemBought = ItemBought.load(getIdFromEventParams(event.params.tokenId, event.params.nftaddress ))
